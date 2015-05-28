@@ -3,3 +3,4 @@
 
 
 简单易用，易于集成
+![Image text](TWEmojiKeyBoard/display.gif)
