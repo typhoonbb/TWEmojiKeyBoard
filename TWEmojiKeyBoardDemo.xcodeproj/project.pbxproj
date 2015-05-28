@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34E127461B16BE7E00C67E61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E127451B16BE7E00C67E61 /* main.m */; };
+		34E127491B16BE7E00C67E61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E127481B16BE7E00C67E61 /* AppDelegate.m */; };
+		34E1274C1B16BE7E00C67E61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1274B1B16BE7E00C67E61 /* ViewController.m */; };
+		34E1274F1B16BE7E00C67E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E1274D1B16BE7E00C67E61 /* Main.storyboard */; };
+		34E127511B16BE7E00C67E61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E127501B16BE7E00C67E61 /* Images.xcassets */; };
+		34E127541B16BE7E00C67E61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E127521B16BE7E00C67E61 /* LaunchScreen.xib */; };
+		34E127601B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1275F1B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests.m */; };
+		34E1276B1B16BF0D00C67E61 /* TWEmojiKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1276A1B16BF0D00C67E61 /* TWEmojiKeyBoard.m */; };
+		34E127A11B16BF5200C67E61 /* btn_publish_face_a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1276D1B16BF5100C67E61 /* btn_publish_face_a@2x.png */; };
+		34E127A21B16BF5200C67E61 /* btn_publish_face_a@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1276E1B16BF5100C67E61 /* btn_publish_face_a@3x.png */; };
+		34E127A31B16BF5200C67E61 /* btn_publish_face_b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1276F1B16BF5100C67E61 /* btn_publish_face_b@2x.png */; };
+		34E127A41B16BF5200C67E61 /* btn_publish_face_b@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127701B16BF5100C67E61 /* btn_publish_face_b@3x.png */; };
+		34E127A51B16BF5200C67E61 /* btn_publish_keyboard_a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127711B16BF5100C67E61 /* btn_publish_keyboard_a@2x.png */; };
+		34E127A61B16BF5200C67E61 /* btn_publish_keyboard_a@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127721B16BF5100C67E61 /* btn_publish_keyboard_a@3x.png */; };
+		34E127A71B16BF5200C67E61 /* btn_publish_keyboard_b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127731B16BF5100C67E61 /* btn_publish_keyboard_b@2x.png */; };
+		34E127A81B16BF5200C67E61 /* btn_publish_keyboard_b@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127741B16BF5100C67E61 /* btn_publish_keyboard_b@3x.png */; };
+		34E127A91B16BF5200C67E61 /* emoji_backspace_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127751B16BF5100C67E61 /* emoji_backspace_n.png */; };
+		34E127AA1B16BF5200C67E61 /* emoji_backspace_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127761B16BF5100C67E61 /* emoji_backspace_n@2x.png */; };
+		34E127AB1B16BF5200C67E61 /* emoji_bell_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127771B16BF5100C67E61 /* emoji_bell_n.png */; };
+		34E127AC1B16BF5200C67E61 /* emoji_bell_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127781B16BF5100C67E61 /* emoji_bell_n@2x.png */; };
+		34E127AD1B16BF5200C67E61 /* emoji_bell_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127791B16BF5100C67E61 /* emoji_bell_s.png */; };
+		34E127AE1B16BF5200C67E61 /* emoji_bell_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1277A1B16BF5100C67E61 /* emoji_bell_s@2x.png */; };
+		34E127AF1B16BF5200C67E61 /* emoji_car_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1277B1B16BF5100C67E61 /* emoji_car_n.png */; };
+		34E127B01B16BF5200C67E61 /* emoji_car_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1277C1B16BF5100C67E61 /* emoji_car_n@2x.png */; };
+		34E127B11B16BF5200C67E61 /* emoji_car_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1277D1B16BF5100C67E61 /* emoji_car_s.png */; };
+		34E127B21B16BF5200C67E61 /* emoji_car_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1277E1B16BF5100C67E61 /* emoji_car_s@2x.png */; };
+		34E127B31B16BF5200C67E61 /* emoji_characters_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1277F1B16BF5100C67E61 /* emoji_characters_n.png */; };
+		34E127B41B16BF5200C67E61 /* emoji_characters_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127801B16BF5100C67E61 /* emoji_characters_n@2x.png */; };
+		34E127B51B16BF5200C67E61 /* emoji_characters_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127811B16BF5100C67E61 /* emoji_characters_s.png */; };
+		34E127B61B16BF5200C67E61 /* emoji_characters_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127821B16BF5100C67E61 /* emoji_characters_s@2x.png */; };
+		34E127B71B16BF5200C67E61 /* emoji_close_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127831B16BF5100C67E61 /* emoji_close_n.png */; };
+		34E127B81B16BF5200C67E61 /* emoji_close_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127841B16BF5100C67E61 /* emoji_close_n@2x.png */; };
+		34E127B91B16BF5200C67E61 /* emoji_close_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127851B16BF5100C67E61 /* emoji_close_n@3x.png */; };
+		34E127BA1B16BF5200C67E61 /* emoji_close_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127861B16BF5100C67E61 /* emoji_close_s.png */; };
+		34E127BB1B16BF5200C67E61 /* emoji_close_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127871B16BF5100C67E61 /* emoji_close_s@2x.png */; };
+		34E127BC1B16BF5200C67E61 /* emoji_close_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127881B16BF5100C67E61 /* emoji_close_s@3x.png */; };
+		34E127BD1B16BF5200C67E61 /* emoji_corner_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127891B16BF5100C67E61 /* emoji_corner_left.png */; };
+		34E127BE1B16BF5200C67E61 /* emoji_corner_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1278A1B16BF5100C67E61 /* emoji_corner_left@2x.png */; };
+		34E127BF1B16BF5200C67E61 /* emoji_corner_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1278B1B16BF5100C67E61 /* emoji_corner_right.png */; };
+		34E127C01B16BF5200C67E61 /* emoji_corner_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1278C1B16BF5100C67E61 /* emoji_corner_right@2x.png */; };
+		34E127C11B16BF5200C67E61 /* emoji_face_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1278D1B16BF5100C67E61 /* emoji_face_n.png */; };
+		34E127C21B16BF5200C67E61 /* emoji_face_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1278E1B16BF5100C67E61 /* emoji_face_n@2x.png */; };
+		34E127C31B16BF5200C67E61 /* emoji_face_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1278F1B16BF5100C67E61 /* emoji_face_s.png */; };
+		34E127C41B16BF5200C67E61 /* emoji_face_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127901B16BF5100C67E61 /* emoji_face_s@2x.png */; };
+		34E127C51B16BF5200C67E61 /* emoji_flower_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127911B16BF5100C67E61 /* emoji_flower_n.png */; };
+		34E127C61B16BF5200C67E61 /* emoji_flower_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127921B16BF5100C67E61 /* emoji_flower_n@2x.png */; };
+		34E127C71B16BF5200C67E61 /* emoji_flower_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127931B16BF5100C67E61 /* emoji_flower_s.png */; };
+		34E127C81B16BF5200C67E61 /* emoji_flower_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127941B16BF5100C67E61 /* emoji_flower_s@2x.png */; };
+		34E127C91B16BF5200C67E61 /* emoji_icons_bg_separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127951B16BF5100C67E61 /* emoji_icons_bg_separator.png */; };
+		34E127CA1B16BF5200C67E61 /* emoji_icons_bg_separator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127961B16BF5100C67E61 /* emoji_icons_bg_separator@2x.png */; };
+		34E127CB1B16BF5200C67E61 /* emoji_recent_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127971B16BF5200C67E61 /* emoji_recent_n.png */; };
+		34E127CC1B16BF5200C67E61 /* emoji_recent_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127981B16BF5200C67E61 /* emoji_recent_n@2x.png */; };
+		34E127CD1B16BF5200C67E61 /* emoji_recent_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127991B16BF5200C67E61 /* emoji_recent_s.png */; };
+		34E127CE1B16BF5200C67E61 /* emoji_recent_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1279A1B16BF5200C67E61 /* emoji_recent_s@2x.png */; };
+		34E127CF1B16BF5200C67E61 /* emoji_tab_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1279B1B16BF5200C67E61 /* emoji_tab_bg.png */; };
+		34E127D01B16BF5200C67E61 /* emoji_tab_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1279C1B16BF5200C67E61 /* emoji_tab_bg@2x.png */; };
+		34E127D11B16BF5200C67E61 /* emoji_touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1279D1B16BF5200C67E61 /* emoji_touch.png */; };
+		34E127D21B16BF5200C67E61 /* emoji_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1279E1B16BF5200C67E61 /* emoji_touch@2x.png */; };
+		34E127D31B16BF5200C67E61 /* emoji_unselected_center_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E1279F1B16BF5200C67E61 /* emoji_unselected_center_bg.png */; };
+		34E127D41B16BF5200C67E61 /* emoji_unselected_center_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E127A01B16BF5200C67E61 /* emoji_unselected_center_bg@2x.png */; };
+		34E127D61B16BF5800C67E61 /* EmojisList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34E127D51B16BF5800C67E61 /* EmojisList.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34E1275A1B16BE7E00C67E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34E127381B16BE7E00C67E61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34E1273F1B16BE7E00C67E61;
+			remoteInfo = TWEmojiKeyBoardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34E127401B16BE7E00C67E61 /* TWEmojiKeyBoardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWEmojiKeyBoardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E127441B16BE7E00C67E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E127451B16BE7E00C67E61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34E127471B16BE7E00C67E61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34E127481B16BE7E00C67E61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34E1274A1B16BE7E00C67E61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34E1274B1B16BE7E00C67E61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34E1274E1B16BE7E00C67E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34E127501B16BE7E00C67E61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34E127531B16BE7E00C67E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		34E127591B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWEmojiKeyBoardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E1275E1B16BE7E00C67E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E1275F1B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWEmojiKeyBoardDemoTests.m; sourceTree = "<group>"; };
+		34E127691B16BF0D00C67E61 /* TWEmojiKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWEmojiKeyBoard.h; sourceTree = "<group>"; };
+		34E1276A1B16BF0D00C67E61 /* TWEmojiKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWEmojiKeyBoard.m; sourceTree = "<group>"; };
+		34E1276D1B16BF5100C67E61 /* btn_publish_face_a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_publish_face_a@2x.png"; sourceTree = "<group>"; };
+		34E1276E1B16BF5100C67E61 /* btn_publish_face_a@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_publish_face_a@3x.png"; sourceTree = "<group>"; };
+		34E1276F1B16BF5100C67E61 /* btn_publish_face_b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_publish_face_b@2x.png"; sourceTree = "<group>"; };
+		34E127701B16BF5100C67E61 /* btn_publish_face_b@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_publish_face_b@3x.png"; sourceTree = "<group>"; };
+		34E127711B16BF5100C67E61 /* btn_publish_keyboard_a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_publish_keyboard_a@2x.png"; sourceTree = "<group>"; };
+		34E127721B16BF5100C67E61 /* btn_publish_keyboard_a@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_publish_keyboard_a@3x.png"; sourceTree = "<group>"; };
+		34E127731B16BF5100C67E61 /* btn_publish_keyboard_b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_publish_keyboard_b@2x.png"; sourceTree = "<group>"; };
+		34E127741B16BF5100C67E61 /* btn_publish_keyboard_b@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_publish_keyboard_b@3x.png"; sourceTree = "<group>"; };
+		34E127751B16BF5100C67E61 /* emoji_backspace_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_backspace_n.png; sourceTree = "<group>"; };
+		34E127761B16BF5100C67E61 /* emoji_backspace_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_backspace_n@2x.png"; sourceTree = "<group>"; };
+		34E127771B16BF5100C67E61 /* emoji_bell_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_bell_n.png; sourceTree = "<group>"; };
+		34E127781B16BF5100C67E61 /* emoji_bell_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_bell_n@2x.png"; sourceTree = "<group>"; };
+		34E127791B16BF5100C67E61 /* emoji_bell_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_bell_s.png; sourceTree = "<group>"; };
+		34E1277A1B16BF5100C67E61 /* emoji_bell_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_bell_s@2x.png"; sourceTree = "<group>"; };
+		34E1277B1B16BF5100C67E61 /* emoji_car_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_car_n.png; sourceTree = "<group>"; };
+		34E1277C1B16BF5100C67E61 /* emoji_car_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_car_n@2x.png"; sourceTree = "<group>"; };
+		34E1277D1B16BF5100C67E61 /* emoji_car_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_car_s.png; sourceTree = "<group>"; };
+		34E1277E1B16BF5100C67E61 /* emoji_car_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_car_s@2x.png"; sourceTree = "<group>"; };
+		34E1277F1B16BF5100C67E61 /* emoji_characters_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_characters_n.png; sourceTree = "<group>"; };
+		34E127801B16BF5100C67E61 /* emoji_characters_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_characters_n@2x.png"; sourceTree = "<group>"; };
+		34E127811B16BF5100C67E61 /* emoji_characters_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_characters_s.png; sourceTree = "<group>"; };
+		34E127821B16BF5100C67E61 /* emoji_characters_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_characters_s@2x.png"; sourceTree = "<group>"; };
+		34E127831B16BF5100C67E61 /* emoji_close_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_close_n.png; sourceTree = "<group>"; };
+		34E127841B16BF5100C67E61 /* emoji_close_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_close_n@2x.png"; sourceTree = "<group>"; };
+		34E127851B16BF5100C67E61 /* emoji_close_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_close_n@3x.png"; sourceTree = "<group>"; };
+		34E127861B16BF5100C67E61 /* emoji_close_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_close_s.png; sourceTree = "<group>"; };
+		34E127871B16BF5100C67E61 /* emoji_close_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_close_s@2x.png"; sourceTree = "<group>"; };
+		34E127881B16BF5100C67E61 /* emoji_close_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_close_s@3x.png"; sourceTree = "<group>"; };
+		34E127891B16BF5100C67E61 /* emoji_corner_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_corner_left.png; sourceTree = "<group>"; };
+		34E1278A1B16BF5100C67E61 /* emoji_corner_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_corner_left@2x.png"; sourceTree = "<group>"; };
+		34E1278B1B16BF5100C67E61 /* emoji_corner_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_corner_right.png; sourceTree = "<group>"; };
+		34E1278C1B16BF5100C67E61 /* emoji_corner_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_corner_right@2x.png"; sourceTree = "<group>"; };
+		34E1278D1B16BF5100C67E61 /* emoji_face_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_face_n.png; sourceTree = "<group>"; };
+		34E1278E1B16BF5100C67E61 /* emoji_face_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_face_n@2x.png"; sourceTree = "<group>"; };
+		34E1278F1B16BF5100C67E61 /* emoji_face_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_face_s.png; sourceTree = "<group>"; };
+		34E127901B16BF5100C67E61 /* emoji_face_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_face_s@2x.png"; sourceTree = "<group>"; };
+		34E127911B16BF5100C67E61 /* emoji_flower_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_flower_n.png; sourceTree = "<group>"; };
+		34E127921B16BF5100C67E61 /* emoji_flower_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_flower_n@2x.png"; sourceTree = "<group>"; };
+		34E127931B16BF5100C67E61 /* emoji_flower_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_flower_s.png; sourceTree = "<group>"; };
+		34E127941B16BF5100C67E61 /* emoji_flower_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_flower_s@2x.png"; sourceTree = "<group>"; };
+		34E127951B16BF5100C67E61 /* emoji_icons_bg_separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_icons_bg_separator.png; sourceTree = "<group>"; };
+		34E127961B16BF5100C67E61 /* emoji_icons_bg_separator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_icons_bg_separator@2x.png"; sourceTree = "<group>"; };
+		34E127971B16BF5200C67E61 /* emoji_recent_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_recent_n.png; sourceTree = "<group>"; };
+		34E127981B16BF5200C67E61 /* emoji_recent_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_recent_n@2x.png"; sourceTree = "<group>"; };
+		34E127991B16BF5200C67E61 /* emoji_recent_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_recent_s.png; sourceTree = "<group>"; };
+		34E1279A1B16BF5200C67E61 /* emoji_recent_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_recent_s@2x.png"; sourceTree = "<group>"; };
+		34E1279B1B16BF5200C67E61 /* emoji_tab_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_tab_bg.png; sourceTree = "<group>"; };
+		34E1279C1B16BF5200C67E61 /* emoji_tab_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_tab_bg@2x.png"; sourceTree = "<group>"; };
+		34E1279D1B16BF5200C67E61 /* emoji_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_touch.png; sourceTree = "<group>"; };
+		34E1279E1B16BF5200C67E61 /* emoji_touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_touch@2x.png"; sourceTree = "<group>"; };
+		34E1279F1B16BF5200C67E61 /* emoji_unselected_center_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_unselected_center_bg.png; sourceTree = "<group>"; };
+		34E127A01B16BF5200C67E61 /* emoji_unselected_center_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoji_unselected_center_bg@2x.png"; sourceTree = "<group>"; };
+		34E127D51B16BF5800C67E61 /* EmojisList.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = EmojisList.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34E1273D1B16BE7E00C67E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E127561B16BE7E00C67E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E127371B16BE7E00C67E61 = {
+			isa = PBXGroup;
+			children = (
+				34E1276C1B16BF4700C67E61 /* Resources */,
+				34E127421B16BE7E00C67E61 /* TWEmojiKeyBoardDemo */,
+				34E1275C1B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests */,
+				34E127411B16BE7E00C67E61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34E127411B16BE7E00C67E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34E127401B16BE7E00C67E61 /* TWEmojiKeyBoardDemo.app */,
+				34E127591B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34E127421B16BE7E00C67E61 /* TWEmojiKeyBoardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34E127471B16BE7E00C67E61 /* AppDelegate.h */,
+				34E127481B16BE7E00C67E61 /* AppDelegate.m */,
+				34E1274A1B16BE7E00C67E61 /* ViewController.h */,
+				34E1274B1B16BE7E00C67E61 /* ViewController.m */,
+				34E1274D1B16BE7E00C67E61 /* Main.storyboard */,
+				34E127501B16BE7E00C67E61 /* Images.xcassets */,
+				34E127521B16BE7E00C67E61 /* LaunchScreen.xib */,
+				34E127691B16BF0D00C67E61 /* TWEmojiKeyBoard.h */,
+				34E1276A1B16BF0D00C67E61 /* TWEmojiKeyBoard.m */,
+				34E127431B16BE7E00C67E61 /* Supporting Files */,
+			);
+			path = TWEmojiKeyBoardDemo;
+			sourceTree = "<group>";
+		};
+		34E127431B16BE7E00C67E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34E127441B16BE7E00C67E61 /* Info.plist */,
+				34E127451B16BE7E00C67E61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34E1275C1B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34E1275F1B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests.m */,
+				34E1275D1B16BE7E00C67E61 /* Supporting Files */,
+			);
+			path = TWEmojiKeyBoardDemoTests;
+			sourceTree = "<group>";
+		};
+		34E1275D1B16BE7E00C67E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34E1275E1B16BE7E00C67E61 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34E1276C1B16BF4700C67E61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34E127D51B16BF5800C67E61 /* EmojisList.plist */,
+				34E1276D1B16BF5100C67E61 /* btn_publish_face_a@2x.png */,
+				34E1276E1B16BF5100C67E61 /* btn_publish_face_a@3x.png */,
+				34E1276F1B16BF5100C67E61 /* btn_publish_face_b@2x.png */,
+				34E127701B16BF5100C67E61 /* btn_publish_face_b@3x.png */,
+				34E127711B16BF5100C67E61 /* btn_publish_keyboard_a@2x.png */,
+				34E127721B16BF5100C67E61 /* btn_publish_keyboard_a@3x.png */,
+				34E127731B16BF5100C67E61 /* btn_publish_keyboard_b@2x.png */,
+				34E127741B16BF5100C67E61 /* btn_publish_keyboard_b@3x.png */,
+				34E127751B16BF5100C67E61 /* emoji_backspace_n.png */,
+				34E127761B16BF5100C67E61 /* emoji_backspace_n@2x.png */,
+				34E127771B16BF5100C67E61 /* emoji_bell_n.png */,
+				34E127781B16BF5100C67E61 /* emoji_bell_n@2x.png */,
+				34E127791B16BF5100C67E61 /* emoji_bell_s.png */,
+				34E1277A1B16BF5100C67E61 /* emoji_bell_s@2x.png */,
+				34E1277B1B16BF5100C67E61 /* emoji_car_n.png */,
+				34E1277C1B16BF5100C67E61 /* emoji_car_n@2x.png */,
+				34E1277D1B16BF5100C67E61 /* emoji_car_s.png */,
+				34E1277E1B16BF5100C67E61 /* emoji_car_s@2x.png */,
+				34E1277F1B16BF5100C67E61 /* emoji_characters_n.png */,
+				34E127801B16BF5100C67E61 /* emoji_characters_n@2x.png */,
+				34E127811B16BF5100C67E61 /* emoji_characters_s.png */,
+				34E127821B16BF5100C67E61 /* emoji_characters_s@2x.png */,
+				34E127831B16BF5100C67E61 /* emoji_close_n.png */,
+				34E127841B16BF5100C67E61 /* emoji_close_n@2x.png */,
+				34E127851B16BF5100C67E61 /* emoji_close_n@3x.png */,
+				34E127861B16BF5100C67E61 /* emoji_close_s.png */,
+				34E127871B16BF5100C67E61 /* emoji_close_s@2x.png */,
+				34E127881B16BF5100C67E61 /* emoji_close_s@3x.png */,
+				34E127891B16BF5100C67E61 /* emoji_corner_left.png */,
+				34E1278A1B16BF5100C67E61 /* emoji_corner_left@2x.png */,
+				34E1278B1B16BF5100C67E61 /* emoji_corner_right.png */,
+				34E1278C1B16BF5100C67E61 /* emoji_corner_right@2x.png */,
+				34E1278D1B16BF5100C67E61 /* emoji_face_n.png */,
+				34E1278E1B16BF5100C67E61 /* emoji_face_n@2x.png */,
+				34E1278F1B16BF5100C67E61 /* emoji_face_s.png */,
+				34E127901B16BF5100C67E61 /* emoji_face_s@2x.png */,
+				34E127911B16BF5100C67E61 /* emoji_flower_n.png */,
+				34E127921B16BF5100C67E61 /* emoji_flower_n@2x.png */,
+				34E127931B16BF5100C67E61 /* emoji_flower_s.png */,
+				34E127941B16BF5100C67E61 /* emoji_flower_s@2x.png */,
+				34E127951B16BF5100C67E61 /* emoji_icons_bg_separator.png */,
+				34E127961B16BF5100C67E61 /* emoji_icons_bg_separator@2x.png */,
+				34E127971B16BF5200C67E61 /* emoji_recent_n.png */,
+				34E127981B16BF5200C67E61 /* emoji_recent_n@2x.png */,
+				34E127991B16BF5200C67E61 /* emoji_recent_s.png */,
+				34E1279A1B16BF5200C67E61 /* emoji_recent_s@2x.png */,
+				34E1279B1B16BF5200C67E61 /* emoji_tab_bg.png */,
+				34E1279C1B16BF5200C67E61 /* emoji_tab_bg@2x.png */,
+				34E1279D1B16BF5200C67E61 /* emoji_touch.png */,
+				34E1279E1B16BF5200C67E61 /* emoji_touch@2x.png */,
+				34E1279F1B16BF5200C67E61 /* emoji_unselected_center_bg.png */,
+				34E127A01B16BF5200C67E61 /* emoji_unselected_center_bg@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34E1273F1B16BE7E00C67E61 /* TWEmojiKeyBoardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E127631B16BE7E00C67E61 /* Build configuration list for PBXNativeTarget "TWEmojiKeyBoardDemo" */;
+			buildPhases = (
+				34E1273C1B16BE7E00C67E61 /* Sources */,
+				34E1273D1B16BE7E00C67E61 /* Frameworks */,
+				34E1273E1B16BE7E00C67E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWEmojiKeyBoardDemo;
+			productName = TWEmojiKeyBoardDemo;
+			productReference = 34E127401B16BE7E00C67E61 /* TWEmojiKeyBoardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34E127581B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E127661B16BE7E00C67E61 /* Build configuration list for PBXNativeTarget "TWEmojiKeyBoardDemoTests" */;
+			buildPhases = (
+				34E127551B16BE7E00C67E61 /* Sources */,
+				34E127561B16BE7E00C67E61 /* Frameworks */,
+				34E127571B16BE7E00C67E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34E1275B1B16BE7E00C67E61 /* PBXTargetDependency */,
+			);
+			name = TWEmojiKeyBoardDemoTests;
+			productName = TWEmojiKeyBoardDemoTests;
+			productReference = 34E127591B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34E127381B16BE7E00C67E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Taylor;
+				TargetAttributes = {
+					34E1273F1B16BE7E00C67E61 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					34E127581B16BE7E00C67E61 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 34E1273F1B16BE7E00C67E61;
+					};
+				};
+			};
+			buildConfigurationList = 34E1273B1B16BE7E00C67E61 /* Build configuration list for PBXProject "TWEmojiKeyBoardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34E127371B16BE7E00C67E61;
+			productRefGroup = 34E127411B16BE7E00C67E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34E1273F1B16BE7E00C67E61 /* TWEmojiKeyBoardDemo */,
+				34E127581B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34E1273E1B16BE7E00C67E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E127BC1B16BF5200C67E61 /* emoji_close_s@3x.png in Resources */,
+				34E1274F1B16BE7E00C67E61 /* Main.storyboard in Resources */,
+				34E127C61B16BF5200C67E61 /* emoji_flower_n@2x.png in Resources */,
+				34E127A21B16BF5200C67E61 /* btn_publish_face_a@3x.png in Resources */,
+				34E127AF1B16BF5200C67E61 /* emoji_car_n.png in Resources */,
+				34E127AE1B16BF5200C67E61 /* emoji_bell_s@2x.png in Resources */,
+				34E127C21B16BF5200C67E61 /* emoji_face_n@2x.png in Resources */,
+				34E127CF1B16BF5200C67E61 /* emoji_tab_bg.png in Resources */,
+				34E127D31B16BF5200C67E61 /* emoji_unselected_center_bg.png in Resources */,
+				34E127BE1B16BF5200C67E61 /* emoji_corner_left@2x.png in Resources */,
+				34E127C31B16BF5200C67E61 /* emoji_face_s.png in Resources */,
+				34E127C41B16BF5200C67E61 /* emoji_face_s@2x.png in Resources */,
+				34E127AA1B16BF5200C67E61 /* emoji_backspace_n@2x.png in Resources */,
+				34E127CD1B16BF5200C67E61 /* emoji_recent_s.png in Resources */,
+				34E127B31B16BF5200C67E61 /* emoji_characters_n.png in Resources */,
+				34E127B51B16BF5200C67E61 /* emoji_characters_s.png in Resources */,
+				34E127C51B16BF5200C67E61 /* emoji_flower_n.png in Resources */,
+				34E127B11B16BF5200C67E61 /* emoji_car_s.png in Resources */,
+				34E127A61B16BF5200C67E61 /* btn_publish_keyboard_a@3x.png in Resources */,
+				34E127CA1B16BF5200C67E61 /* emoji_icons_bg_separator@2x.png in Resources */,
+				34E127541B16BE7E00C67E61 /* LaunchScreen.xib in Resources */,
+				34E127A11B16BF5200C67E61 /* btn_publish_face_a@2x.png in Resources */,
+				34E127CE1B16BF5200C67E61 /* emoji_recent_s@2x.png in Resources */,
+				34E127C91B16BF5200C67E61 /* emoji_icons_bg_separator.png in Resources */,
+				34E127A91B16BF5200C67E61 /* emoji_backspace_n.png in Resources */,
+				34E127D11B16BF5200C67E61 /* emoji_touch.png in Resources */,
+				34E127B91B16BF5200C67E61 /* emoji_close_n@3x.png in Resources */,
+				34E127BD1B16BF5200C67E61 /* emoji_corner_left.png in Resources */,
+				34E127B71B16BF5200C67E61 /* emoji_close_n.png in Resources */,
+				34E127D61B16BF5800C67E61 /* EmojisList.plist in Resources */,
+				34E127D21B16BF5200C67E61 /* emoji_touch@2x.png in Resources */,
+				34E127AD1B16BF5200C67E61 /* emoji_bell_s.png in Resources */,
+				34E127A71B16BF5200C67E61 /* btn_publish_keyboard_b@2x.png in Resources */,
+				34E127AB1B16BF5200C67E61 /* emoji_bell_n.png in Resources */,
+				34E127A51B16BF5200C67E61 /* btn_publish_keyboard_a@2x.png in Resources */,
+				34E127B21B16BF5200C67E61 /* emoji_car_s@2x.png in Resources */,
+				34E127D41B16BF5200C67E61 /* emoji_unselected_center_bg@2x.png in Resources */,
+				34E127D01B16BF5200C67E61 /* emoji_tab_bg@2x.png in Resources */,
+				34E127BF1B16BF5200C67E61 /* emoji_corner_right.png in Resources */,
+				34E127A41B16BF5200C67E61 /* btn_publish_face_b@3x.png in Resources */,
+				34E127BB1B16BF5200C67E61 /* emoji_close_s@2x.png in Resources */,
+				34E127CB1B16BF5200C67E61 /* emoji_recent_n.png in Resources */,
+				34E127B61B16BF5200C67E61 /* emoji_characters_s@2x.png in Resources */,
+				34E127C81B16BF5200C67E61 /* emoji_flower_s@2x.png in Resources */,
+				34E127511B16BE7E00C67E61 /* Images.xcassets in Resources */,
+				34E127BA1B16BF5200C67E61 /* emoji_close_s.png in Resources */,
+				34E127A31B16BF5200C67E61 /* btn_publish_face_b@2x.png in Resources */,
+				34E127C01B16BF5200C67E61 /* emoji_corner_right@2x.png in Resources */,
+				34E127B81B16BF5200C67E61 /* emoji_close_n@2x.png in Resources */,
+				34E127AC1B16BF5200C67E61 /* emoji_bell_n@2x.png in Resources */,
+				34E127B41B16BF5200C67E61 /* emoji_characters_n@2x.png in Resources */,
+				34E127CC1B16BF5200C67E61 /* emoji_recent_n@2x.png in Resources */,
+				34E127A81B16BF5200C67E61 /* btn_publish_keyboard_b@3x.png in Resources */,
+				34E127C11B16BF5200C67E61 /* emoji_face_n.png in Resources */,
+				34E127B01B16BF5200C67E61 /* emoji_car_n@2x.png in Resources */,
+				34E127C71B16BF5200C67E61 /* emoji_flower_s.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E127571B16BE7E00C67E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34E1273C1B16BE7E00C67E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E1276B1B16BF0D00C67E61 /* TWEmojiKeyBoard.m in Sources */,
+				34E1274C1B16BE7E00C67E61 /* ViewController.m in Sources */,
+				34E127491B16BE7E00C67E61 /* AppDelegate.m in Sources */,
+				34E127461B16BE7E00C67E61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E127551B16BE7E00C67E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E127601B16BE7E00C67E61 /* TWEmojiKeyBoardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34E1275B1B16BE7E00C67E61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34E1273F1B16BE7E00C67E61 /* TWEmojiKeyBoardDemo */;
+			targetProxy = 34E1275A1B16BE7E00C67E61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34E1274D1B16BE7E00C67E61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34E1274E1B16BE7E00C67E61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34E127521B16BE7E00C67E61 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34E127531B16BE7E00C67E61 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34E127611B16BE7E00C67E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34E127621B16BE7E00C67E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34E127641B16BE7E00C67E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TWEmojiKeyBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34E127651B16BE7E00C67E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TWEmojiKeyBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34E127671B16BE7E00C67E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TWEmojiKeyBoardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWEmojiKeyBoardDemo.app/TWEmojiKeyBoardDemo";
+			};
+			name = Debug;
+		};
+		34E127681B16BE7E00C67E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TWEmojiKeyBoardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWEmojiKeyBoardDemo.app/TWEmojiKeyBoardDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34E1273B1B16BE7E00C67E61 /* Build configuration list for PBXProject "TWEmojiKeyBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E127611B16BE7E00C67E61 /* Debug */,
+				34E127621B16BE7E00C67E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E127631B16BE7E00C67E61 /* Build configuration list for PBXNativeTarget "TWEmojiKeyBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E127641B16BE7E00C67E61 /* Debug */,
+				34E127651B16BE7E00C67E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34E127661B16BE7E00C67E61 /* Build configuration list for PBXNativeTarget "TWEmojiKeyBoardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E127671B16BE7E00C67E61 /* Debug */,
+				34E127681B16BE7E00C67E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34E127381B16BE7E00C67E61 /* Project object */;
+}
