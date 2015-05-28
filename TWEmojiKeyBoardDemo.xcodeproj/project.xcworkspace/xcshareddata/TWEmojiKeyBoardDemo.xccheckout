@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>90F3E10D-7BEF-48F6-9B2E-2895455BA132</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TWEmojiKeyBoardDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>93B12C515575F45203FD0514B302F210059C5F05</key>
+		<string>https://github.com/typhoonbb/TWEmojiKeyBoardDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TWEmojiKeyBoardDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>93B12C515575F45203FD0514B302F210059C5F05</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/typhoonbb/TWEmojiKeyBoardDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>93B12C515575F45203FD0514B302F210059C5F05</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>93B12C515575F45203FD0514B302F210059C5F05</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TWEmojiKeyBoardDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
