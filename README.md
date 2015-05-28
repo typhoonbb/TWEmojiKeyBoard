@@ -3,4 +3,4 @@
 
 
 简单易用，易于集成
-![Image text](TWEmojiKeyBoard/display.gif)
+![Image text](https://github.com/typhoonbb/TWEmojiKeyBoard/blob/master/display.gif)
