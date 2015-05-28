@@ -19,7 +19,7 @@
 {
 
     BOOL isEmojiKeyBoard;
-    TWEmojiKeyBoard *keyBoard;
+    TWEmojiKeyBoard *keyBoard;//注意！！！这里必须用全局变量
 
 }
 
